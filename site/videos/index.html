@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JISER · Démonstrations</title>
+<link rel="icon" href="../logo-icon.png">
+<style>
+  :root { --navy: #0b2f5b; --gold: #c29a2e; --ink: #1e293b; --muted: #64748b; --bg: #f5f7fb; --card: #fff; --line: #e2e8f0; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Inter, "Segoe UI", Arial, sans-serif; color: var(--ink); background: var(--bg); }
+  header { background: linear-gradient(135deg, #071f3f, var(--navy) 60%, #1a4b8c); color: #fff; padding: 32px 16px 40px; text-align: center; }
+  header img { width: 64px; height: 64px; background: #fff; border-radius: 16px; padding: 6px; }
+  h1 { margin: 12px 0 4px; font-size: 28px; }
+  header p { margin: 0 auto; max-width: 640px; color: #cbd5e1; }
+  header a.cta { display: inline-block; margin-top: 18px; background: var(--gold); color: #fff; font-weight: 700; padding: 10px 18px; border-radius: 10px; text-decoration: none; }
+  main { max-width: 1100px; margin: -20px auto 40px; padding: 0 16px; display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr)); }
+  article { background: var(--card); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; box-shadow: 0 6px 24px rgba(11, 47, 91, .08); }
+  video { display: block; width: 100%; background: #000; max-height: 70vh; }
+  .txt { padding: 14px 18px 18px; }
+  h2 { margin: 0 0 4px; font-size: 18px; color: var(--navy); }
+  .meta { color: var(--gold); font-size: 13px; font-weight: 700; }
+  .txt p { margin: 6px 0 0; color: var(--muted); font-size: 14px; line-height: 1.5; }
+  footer { text-align: center; color: var(--muted); font-size: 13px; padding: 0 16px 32px; }
+  footer a { color: var(--navy); }
+</style>
+</head>
+<body>
+<header>
+  <img src="../logo-icon.png" alt="JISER">
+  <h1>JISER · Démonstrations</h1>
+  <p>Chaque rôle de la plateforme, filmé sur l'application en ligne : entreprise, chargé du contentieux, ministre, chef de centre sur téléphone et administrateur.</p>
+  <a class="cta" href="../">Essayer JISER</a>
+</header>
+<main>
+  <article>
+    <video controls preload="metadata" poster="01_entreprise.jpg" src="01_entreprise.mp4"></video>
+    <div class="txt"><h2>Entreprise</h2><span class="meta">2 min</span>
+      <p>Création de l'espace, validation, dépôt d'une notification, analyse par l'IA (montants, délai, vices de procédure), messagerie, assistant fiscal, brouillon de réponse.</p></div>
+  </article>
+  <article>
+    <video controls preload="metadata" poster="03_ministre_et_chef_de_centre.jpg" src="03_ministre_et_chef_de_centre.mp4"></video>
+    <div class="txt"><h2>Ministre et chef de centre (sur téléphone)</h2><span class="meta">1 min</span>
+      <p>Le ministre : pilotage national anonyme et copilote juridique. Le chef de centre, depuis un smartphone : inscription, synthèse IA du stock, score de solidité expliqué.</p></div>
+  </article>
+  <article>
+    <video controls preload="metadata" poster="02_charge_contentieux.jpg" src="02_charge_contentieux.mp4"></video>
+    <div class="txt"><h2>Chargé(e) du contentieux</h2><span class="meta">3 min</span>
+      <p>Demande d'accès, validation par l'administrateur, tableau de bord, stock du centre, score de solidité expliqué, lettre de conciliation.</p></div>
+  </article>
+  <article>
+    <video controls preload="metadata" poster="04_administrateur_plateforme.jpg" src="04_administrateur_plateforme.mp4"></video>
+    <div class="txt"><h2>Administrateur de la plateforme</h2><span class="meta">1 min</span>
+      <p>Santé des services, journal d'audit de l'IA, base juridique et veille juridique automatisée.</p></div>
+  </article>
+</main>
+<footer>Données fictives · <a href="https://github.com/EyaAzzabi/Jiser">Code source</a></footer>
+</body>
+</html>
